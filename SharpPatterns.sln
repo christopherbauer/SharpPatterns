@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{83459F3D-B2F1-4982-B71E-DC24939D9BD1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{9C2767F5-EDAF-446B-AAB1-0A3F8916351C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpPatterns", "src\SharpPatterns\SharpPatterns.csproj", "{BF3CA98D-69B1-40E0-8D97-02537BF83757}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpPatternsTests", "test\SharpPatternsTests\SharpPatternsTests.csproj", "{2A1B32B3-0D1F-4EE9-AD40-D636C1980F6A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BF3CA98D-69B1-40E0-8D97-02537BF83757}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF3CA98D-69B1-40E0-8D97-02537BF83757}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF3CA98D-69B1-40E0-8D97-02537BF83757}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF3CA98D-69B1-40E0-8D97-02537BF83757}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A1B32B3-0D1F-4EE9-AD40-D636C1980F6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A1B32B3-0D1F-4EE9-AD40-D636C1980F6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A1B32B3-0D1F-4EE9-AD40-D636C1980F6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A1B32B3-0D1F-4EE9-AD40-D636C1980F6A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BF3CA98D-69B1-40E0-8D97-02537BF83757} = {83459F3D-B2F1-4982-B71E-DC24939D9BD1}
+		{2A1B32B3-0D1F-4EE9-AD40-D636C1980F6A} = {9C2767F5-EDAF-446B-AAB1-0A3F8916351C}
+	EndGlobalSection
+EndGlobal

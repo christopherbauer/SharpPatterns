@@ -1,0 +1,17 @@
+C:\Users\Christopher\Documents\GitHub\SharpPatterns\src\SharpPatterns\bin\SharpPatterns.dll.config
+C:\Users\Christopher\Documents\GitHub\SharpPatterns\src\SharpPatterns\bin\SharpPatterns.dll
+C:\Users\Christopher\Documents\GitHub\SharpPatterns\src\SharpPatterns\bin\SharpPatterns.pdb
+C:\Users\Christopher\Documents\GitHub\SharpPatterns\src\SharpPatterns\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Christopher\Documents\GitHub\SharpPatterns\src\SharpPatterns\bin\Newtonsoft.Json.dll
+C:\Users\Christopher\Documents\GitHub\SharpPatterns\src\SharpPatterns\bin\System.Web.Razor.dll
+C:\Users\Christopher\Documents\GitHub\SharpPatterns\src\SharpPatterns\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Christopher\Documents\GitHub\SharpPatterns\src\SharpPatterns\bin\System.Web.WebPages.dll
+C:\Users\Christopher\Documents\GitHub\SharpPatterns\src\SharpPatterns\bin\System.Web.WebPages.Razor.dll
+C:\Users\Christopher\Documents\GitHub\SharpPatterns\src\SharpPatterns\bin\Microsoft.Web.Infrastructure.xml
+C:\Users\Christopher\Documents\GitHub\SharpPatterns\src\SharpPatterns\bin\System.Web.Razor.xml
+C:\Users\Christopher\Documents\GitHub\SharpPatterns\src\SharpPatterns\bin\System.Web.WebPages.xml
+C:\Users\Christopher\Documents\GitHub\SharpPatterns\src\SharpPatterns\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Christopher\Documents\GitHub\SharpPatterns\src\SharpPatterns\bin\System.Web.WebPages.Razor.xml
+C:\Users\Christopher\Documents\GitHub\SharpPatterns\src\SharpPatterns\obj\Debug\SharpPatterns.csprojResolveAssemblyReference.cache
+C:\Users\Christopher\Documents\GitHub\SharpPatterns\src\SharpPatterns\obj\Debug\SharpPatterns.dll
+C:\Users\Christopher\Documents\GitHub\SharpPatterns\src\SharpPatterns\obj\Debug\SharpPatterns.pdb

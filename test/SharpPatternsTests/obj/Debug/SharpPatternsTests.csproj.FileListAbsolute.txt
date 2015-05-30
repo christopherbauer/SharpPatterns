@@ -1,0 +1,13 @@
+C:\Users\Christopher\Documents\GitHub\SharpPatterns\test\SharpPatternsTests\bin\Debug\SharpPatternsTests.dll
+C:\Users\Christopher\Documents\GitHub\SharpPatterns\test\SharpPatternsTests\bin\Debug\SharpPatternsTests.pdb
+C:\Users\Christopher\Documents\GitHub\SharpPatterns\test\SharpPatternsTests\bin\Debug\Moq.dll
+C:\Users\Christopher\Documents\GitHub\SharpPatterns\test\SharpPatternsTests\bin\Debug\nunit.framework.dll
+C:\Users\Christopher\Documents\GitHub\SharpPatterns\test\SharpPatternsTests\bin\Debug\SharpPatterns.dll
+C:\Users\Christopher\Documents\GitHub\SharpPatterns\test\SharpPatternsTests\bin\Debug\System.Web.Optimization.dll
+C:\Users\Christopher\Documents\GitHub\SharpPatterns\test\SharpPatternsTests\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Christopher\Documents\GitHub\SharpPatterns\test\SharpPatternsTests\bin\Debug\SharpPatterns.pdb
+C:\Users\Christopher\Documents\GitHub\SharpPatterns\test\SharpPatternsTests\bin\Debug\Moq.xml
+C:\Users\Christopher\Documents\GitHub\SharpPatterns\test\SharpPatternsTests\bin\Debug\nunit.framework.xml
+C:\Users\Christopher\Documents\GitHub\SharpPatterns\test\SharpPatternsTests\obj\Debug\SharpPatternsTests.csprojResolveAssemblyReference.cache
+C:\Users\Christopher\Documents\GitHub\SharpPatterns\test\SharpPatternsTests\obj\Debug\SharpPatternsTests.dll
+C:\Users\Christopher\Documents\GitHub\SharpPatterns\test\SharpPatternsTests\obj\Debug\SharpPatternsTests.pdb
