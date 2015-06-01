@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using SharpPatterns.ViewModels;
 
 namespace SharpPatterns.Controllers
@@ -39,6 +40,10 @@ namespace SharpPatterns.Controllers
             "Tremper",
             "Wishon"
         };
+        private List<string> States = new List<string>
+        {
+            "NY","PA","CA","WY","ND","SD","FL","MA","NJ","CO","TX"
+        }; 
         public CustomerViewModel Create()
         {
             return new CustomerViewModel
@@ -48,7 +53,7 @@ namespace SharpPatterns.Controllers
                 Address = "123 Anyplace Lane",
                 Age = RandomSingleton.Get().Next(18, 99),
                 City = "NY",
-                State = "NY"
+                State = States[RandomSingleton.Get().Next(States.Count)]
             };
         }
     }
