@@ -4,7 +4,59 @@
     ViewBag.Title = "Memento";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
+@section scripts
+{
+    <script type='text/javascript'>
+        $(document).ready(function() {
+            $('table tr').on('focus', 'input,textarea', function(event) {
+                var $blurFrom = $(event.delegateTarget);
+                $blurFrom.css("background-color", "yellow");
 
+                $blurFrom.find("textarea[cols]").each(function(i, element) {
+                    expandHeight($(element));
+                });
+            });
+            $('table tr').on('focusout', 'input,textarea', function(event) {
+                var $blurFrom = $(event.delegateTarget);
+                $blurFrom.css("background-color", "white");
+
+                $blurFrom.find("textarea[cols]").each(function(i, element) {
+                    collapseHeight($(element));
+                });
+
+                createMemento();
+            });
+
+            $("table tr textarea[cols]").on("keyup", function() {
+                expandHeight($(this));
+            });
+
+            function expandHeight($this) {
+                var rows = ($this.val().length / ($this.prop("cols") - 2) + 1);
+                $this.prop("rows", rows);
+            }
+
+            function collapseHeight($this) {
+                $this.prop("rows", 1);
+            }
+
+            function createMemento() {
+                var tableData = JSON.stringify($("table"));
+                alert(tableData);
+                $.ajax({
+                    url: "@Url.HttpRouteUrl("DefaultApi", new RouteValueDictionary {{"action", "Put"}, {"controller", "MementoApi"}})",
+                    data: tableData,
+                });
+            }
+
+            function undo() {
+
+            }
+
+            function redo() {}
+        });
+    </script>
+}
 <h2>@ViewBag.Title</h2>
 
 <table>
@@ -18,14 +70,14 @@
         </tr>
     </thead>
     <tbody>
-        @for (int i = 0; i < Model.Customers.Length; i++)
+        @for (var i = 0; i < Model.Customers.Length; i++)
         {
             <tr>
-                <td>@Model.Customers[i].FirstName</td>
-                <td>@Model.Customers[i].LastName</td>
-                <td>@Model.Customers[i].Age</td>
-                <td>@Model.Customers[i].City</td>
-                <td>@Model.Customers[i].State</td>
+                <td>@Html.TextAreaFor(model => Model.Customers[i].FirstName, new { rows="1" })</td>
+                <td>@Html.TextAreaFor(model => Model.Customers[i].LastName, new { rows = "1" })</td>
+                <td>@Html.TextAreaFor(model => Model.Customers[i].Age, new { rows = "1" })</td>
+                <td>@Html.TextAreaFor(model => Model.Customers[i].City, new { rows = "1" })</td>
+                <td>@Html.TextAreaFor(model => Model.Customers[i].State, new { rows = "1" })</td>
             </tr>
         }
     </tbody>

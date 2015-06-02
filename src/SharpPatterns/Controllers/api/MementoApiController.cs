@@ -1,5 +1,7 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Web.Http;
+using SharpPatterns.ViewModels;
 
 namespace SharpPatterns.Controllers.api
 {
@@ -23,8 +25,9 @@ namespace SharpPatterns.Controllers.api
         }
 
         // PUT api/<controller>/5
-        public void Put(int id, [FromBody]string value)
+        public void Put(MementoViewModel mementoViewModel)
         {
+            Console.WriteLine(mementoViewModel.ToString());
         }
 
         // DELETE api/<controller>/5
